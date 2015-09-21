@@ -38,5 +38,3 @@ https://github.com/Diblo/KODI-Popcorn-Time/wiki/Test-releases
 Please, see our WIKI page [Help wanted](http://github.com/Diblo/KODI-Popcorn-Time/wiki/Help-wanted)
 
 Many thanks in advance.
-
-[![Analytics](https://ga-beacon.appspot.com/UA-63872919-1/KODI-Popcorn-Time/readme.md)](https://github.com/igrigorik/ga-beacon)
