@@ -14,9 +14,6 @@ Check out the [releases](http://github.com/Diblo/KODI-Popcorn-Time/releases) tab
 * Raspberry Pi
 * Android ARM 4.0+
 
-## Test Alpha version ##
-Read [Test Alpha version](http://github.com/Diblo/KODI-Popcorn-Time/wiki/Test-Alpha-version) - [Screenshots/Version-0.7.x](http://github.com/Diblo/KODI-Popcorn-Time/tree/master/Screenshots/Version-0.7.x)
-
 ## Discussions/Proposals ##
 There is one active threads on [tvaddons.ag](http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time?p=271031). However, proposals may also be posted under [Issues](http://github.com/Diblo/KODI-Popcorn-Time/issues).
 
