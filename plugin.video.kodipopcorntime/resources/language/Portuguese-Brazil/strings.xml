@@ -3,7 +3,7 @@
   <!--
    * The range 30000-30099 - 99
    -->
-
+  <string id="30000">Próxima página ...</string>
   <string id="30001">KODI Popcorn Time - Pesquisar</string>
   <string id="30002">Pesquisar</string>
   <string id="30003">Navegar por Gênero</string>
@@ -12,45 +12,57 @@
   <string id="30006">Adicionados Recentemente</string>
   <string id="30007">Obtendo conteúdo ...</string>
   <string id="30008">Velocidade: %s/s, Up %s/s</string>
-  <string id="30009">Próxima página</string>
-  <string id="30010">Filme 3D</string>
+  <string id="30009">Assistir</string>
+  <string id="30010">Configurações do Add-on</string>
   <string id="30011">Você deseja assistir este filme em 3D?</string>
-  <string id="30012">Confirmar</string>
-  <string id="30013">Tem certeza de que deseja redefinir as configurações do torrent!</string>
-  <string id="30014">Caminho, taxa de download e upload não serão reiniciadas.</string>
+  <string id="30012">Legenda:</string>
+  <string id="30013">Tem certeza de que deseja redefinir as configurações do torrent?</string>
+  <string id="30014">Sómente as configurações com "(Torrent)" no título, serão afetadas.</string>
   <string id="30015">Seeds: </string>
-  <string id="30016">Iniciando download ...</string>
+  <string id="30016">Obtendo informações ...</string>
   <string id="30017">Concluído</string>
   <string id="30018">Obtendo informações ...</string>
   <string id="30019">Baixando legenda ...</string>
   <string id="30020">Reprodução iniciada</string>
   <string id="30021">Baixando</string>
   <string id="30022">Download concluído</string>
-  <string id="30023">Título</string>
-  <string id="30024">Ano</string>
+  <string id="30023">A qualidade não foi encontrada.</string>
+  <string id="30024">Tentativa </string>
+
+
+
+  <string id="30028">Pesquisando ...</string>
+  <string id="30030">Filmes</string>
+  <string id="30031">Iniciando ...</string>
+
+  <string id="30033">Tem certeza que deseja excluir o cache?</string>
+  <string id="30034">Título:</string>
+  <string id="30035">Novo título:</string>
+  <string id="30036">Aguardando ...</string>
+  <string id="30037">Verificando dados ...</string>
 
   <!-- 
    * Settings
    * The range 30100-30199 - 99
    -->
-  <string id="30100">Priorizar legenda (deficientes auditivos):</string>
-  <string id="30101">Geral</string>
+
+  <string id="30101">Limpar arquivos de mídia</string>
   <string id="30102">Arquivos</string>
   <string id="30103">Caminho de Download:</string>
   <string id="30104">Manter arquivos após a reprodução/paradas de download:</string>
   <string id="30105">Legendas</string>
   <string id="30106">Só 720p</string>
-  <string id="30107">Só 1080p</string>
+  <string id="30107">Preferir:</string>
   <string id="30108">Rede</string>
-  <string id="30109">Reprodução de vídeo 3D:</string>
+  <string id="30109">Iniciar Video em 3D:</string>
   <string id="30110">Máxima Taxa de Download (Kilobyte - 0: Unlimited):</string>
   <string id="30111">Cryptografia:</string>
-  <string id="30112">Outros</string>
+  <string id="30112">Global</string>
   <string id="30113">Manutenção</string>
-  <string id="30114">Limpar cache</string>
-  <string id="30115">Adicionar domínios</string>
-  <string id="30116">YIFY (servidor, separados por vírgulas):</string>
-  <string id="30117">Qualidade Preferida:</string>
+  <string id="30114">Limpar informações de mídia</string>
+  <string id="30115">Domínios de proxy</string>
+  <string id="30116">Filmes (servidor, separados por vírgulas):</string>
+  <string id="30117">Qualidade de Video</string>
   <string id="30118">1080p e inferior</string>
   <string id="30119">Prioridade de Idioma #1:</string>
   <string id="30120">Prioridade de Idioma #2:</string>
@@ -62,18 +74,18 @@
   <string id="30126">Nunca</string>
   <string id="30127">Me pergunte</string>
   <string id="30128">Sempre</string>
-  <string id="30129">Reproduzir</string>
-  <string id="30130">Torrent</string>
-  <string id="30131">Configurações</string>
-  <string id="30132">Porta</string>
-  <string id="30133">Peers</string>
-  <string id="30134">Características</string>
-  <string id="30135">Log / debug</string>
+  <string id="30129">Programas de TV (servidor, separados por vírgulas):</string>
+  <string id="30130">Avançado</string>
+  <string id="30131">Configurações de Torrent</string>
+  <string id="30132">Provedores</string>
+  <string id="30133">Peers (Torrent)</string>
+  <string id="30134">Características (Torrent)</string>
+  <string id="30135">Log / Debug</string>
   <string id="30136">Manter arquivos incompletos após sair:</string>
   <string id="30137">Manter arquivos completos após sair:</string>
-  <string id="30138">Adicional</string>
+  <string id="30138">Adicional (Torrent)</string>
   <string id="30139">Porta para conexões de entrada:</string>
-  <string id="30140">Usar uma porta aleatória (49152-65535):</string>
+  <string id="30140">Usar uma porta aleatória (49152-65535)</string>
   <string id="30141">Ativar protocolo TCP</string>
   <string id="30142">Ativar uTP (uTorrent Transport Protocol)</string>
   <string id="30143">Limite total de conexões:</string>
@@ -81,7 +93,7 @@
   <string id="30145">Número de peers para se conectar após a resposta inicial:</string>
   <string id="30146">Número total de tentativas de conexão por segundo:</string>
   <string id="30147">Número de segundos antes da tentativa de conexão falhou:</string>
-  <string id="30148">Porta</string>
+
   <string id="30149">Número de segundos de espera entre falhas de conexão:</string>
   <string id="30150">Número de tentativas de falha antes do peer ser descartado:</string>
   <string id="30151">Ativar DHT (Distributed Hash Table):</string>
@@ -91,8 +103,21 @@
   <string id="30155">Permitir o envio do pedido para raspar o Tracker (Tracker Scrape):</string>
   <string id="30156">Trackers (URLs, separados por vírgulas):</string>
   <string id="30157">DHT routers (servidor, separados por vírgulas: pares de porta):</string>
-  <string id="30158">Debug:</string>
-  <string id="30159">Mostrar notificações de debug:</string>
+  <string id="30158">Ativar debug</string>
+  <string id="30159">Rede (Torrent)</string>
+  <string id="30160">Pesquisar</string>
+
+  <string id="30162">Filme</string>
+  <string id="30163">Programas de TV</string>
+  <string id="30164">Priorizar legendas (deficientes auditivos):</string>
+  <string id="30165">Obter informações de filme em:</string>
+
+
+  <string id="30168">Obter legendas em:</string>
+  <string id="30169">Obter informações de TV em:</string>
+  <string id="30170">Nenhum</string>
+  <string id="30171">The Movie Database</string>
+  <string id="30172">YIFY Subtitles</string>
 
   <!-- 
    * Languages
@@ -142,28 +167,36 @@
    * Notify
    * The range 30300-30399 - 99
    -->
-  <string id="30300">Nao e possivel localizar a porta do torrent2http</string>
-  <string id="30301">Cache limpo</string>
-  <string id="30302">Seu OS nao e suportado</string>
-  <string id="30303">Nao e possivel iniciar torrent2http, consulte log para obter detalhes</string>
-  <string id="30304">Nao recebeu quaisquer dados</string>
-  <string id="30305">Nao encontramos nenhum filme</string>
-  <string id="30306">Um erro ocorreu</string>
-  <string id="30307">Nenhum item foi encontrado</string>
-  <string id="30308">Ocorreu um erro desconhecido</string>
-  <string id="30309">Suponho que esteja executando o XBMC, mas a variavel XBMC_HOME ou KODI_HOME nao foi encontrada</string>
-  <string id="30310">Invalid_download_path</string>
-  <string id="30311">torrent2http parou de funcionar.</string>
-  <string id="30312">Ocorreu um erro com torrent2http</string>
-  <string id="30313">Altera a taxa de upload para 15 kB/s</string>
-  <string id="30314">As configuracoes do torrent foram redefinidas</string>
-  <string id="30315">Nenhum provedor de cinema ou tv-show foi encontrado</string>
-  <string id="30316">O torrent nao continha um filme</string>
-  <string id="30317">A conexao nao respondeu antes do tempo limite</string>
-  <string id="30318">xxxx</string>
-  <string id="30319">xxxx</string>
-  <string id="30320">xxxx</string>
-  <string id="30321">xxxx</string>
+  <string id="30300">Não é possível localizar a porta do torrent2http.</string>
+  <string id="30301">Cache limpo.</string>
+  <string id="30302">Seu sistema operacional não é suportado.</string>
+
+  <string id="30304">Não recebeu quaisquer dados.</string>
+  <string id="30305">Não encontramos nenhum filme.</string>
+
+
+  <string id="30308">Ocorreu um erro desconhecido.</string>
+
+  <string id="30310">Pasta de download não encontrada. Por favor verifique as configurações do Add-on.</string>
+
+
+  <string id="30313">Ocorreu um erro com o torrent.</string>
+  <string id="30314">As configurações do torrent foram redefinidas.</string>
+  <string id="30315">Nenhum provedor de filmes ou programas de tv foram encontrados.</string>
+  <string id="30316">O torrent não contém nenhum filme.</string>
+  <string id="30317">A conexão não respondeu antes do tempo limite.</string>
+  <string id="30318">A reprodução foi encerrada devido ao tempo limite.</string>
+  <string id="30319">Baixar em um compartilhamento de rede desmontado não é permitido. Por favor, verifique as configurações do Add-on.</string>
+  <string id="30320">Não foi possível encontrar o torrent2http.</string>
+  <string id="30321">Não foi possível tornar o torrent2http em executável.</string>
+  <string id="30322">Não foi possível criar o diretório de cache.</string>
+  <string id="30323">Não há espaço livre suficiente para iniciar. Libere algum espaço ou escolha um local diferente para baixar.</string>
+  <string id="30324">A Máxima Taxa de Upload deve estar igual ou acima de 15 kilobytes por segundo. Por favor, vá para as configurações Add-on e configure corretamente.</string>
+  <string id="30325">Você precisa de mais espaço para iniciar %s e %s qualidades ou escolha uma qualidade inferior.</string>
+  <string id="30326">Você precisa de mais espaço para iniciar %s qualidade ou escolha uma qualidade inferior.</string>
+  <string id="30327">Nenhum resultado encontrado.</string>
+  <string id="30328">Não poderia receber uma lista de mídia, não havia nenhum domínio funcionando.</string>
+  <string id="30329">Houve um erro com a resposta do provedor.</string>
 
   <!-- 
    * Genres
@@ -192,5 +225,5 @@
   <string id="30419">Suspense</string>
   <string id="30420">Guerra</string>
   <string id="30421">Ocidental</string>
-  <string id="30499">30400,30401,30402,30403,30404,30405,30406,30407,30408,30409,30410,30411,30412,30413,30414,30415,30416,30417,30418,30419,30420,30421</string> <!-- The order of the genres - You can not add new ids! --> 
+  <string id="30499">30400,30401,30402,30403,30404,30405,30406,30407,30408,30409,30410,30411,30412,30413,30414,30415,30416,30417,30418,30419,30420,30421</string> <!-- The order of the genres - You Cannot add new ids! --> 
 </strings>
