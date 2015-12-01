@@ -17,7 +17,35 @@ class Addon(_Base):
             cls.cur_uri = sys.argv[2][1:]
 
         def _language(cls):
-            cls.language = xbmc.getLanguage(xbmc.ISO_639_1)
+            sys_lang = xbmc.getLanguage(xbmc.ISO_639_1)
+            if sys_lang == '':
+                lang_country_mapping = (
+                    ('chin', 'cn'),
+                    ('denm', 'dk'),
+                    ('fin', 'fi'),
+                    ('fre', 'fr'),
+                    ('germa', 'de'),
+                    ('greec', 'gr'),
+                    ('ital', 'it'),
+                    ('japa', 'jp'),
+                    ('kor', 'kr'),
+                    ('dutch', 'nl'),
+                    ('norw', 'no'),
+                    ('pol', 'pl'),
+                    ('port', 'pt'),
+                    ('roma', 'ro'),
+                    ('russ', 'ru'),
+                    ('span', 'es'),
+                    ('swed', 'se'),
+                    ('turk', 'tr'),
+                    ('engl', 'us')
+                )
+                xbmc_lang = xbmc.getLanguage().lower()
+                for lang, country_code in lang_country_mapping:
+                    if xbmc_lang.startswith(lang):
+                        sys_lang = country_code
+                        break
+            cls.language = sys_lang
 
         def _cache_path(cls):
             _path = xbmc.translatePath("special://profile/addon_data/%s/cache" % cls.id)
