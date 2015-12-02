@@ -15,7 +15,7 @@ class Player(_Base):
         if Platform.system == 'android': 
             if not hasattr(os, 'statvfs'):
 		import commands, b2h
-		return b2h.human2bytes(commands.getoutput('df %s' % download_path).split('\n')[1].split()[3])
+		return b2h.human2bytes(commands.getoutput('df %s' % self.mediaSettings.download_path).split('\n')[1].split()[3])
         if Platform.system == 'windows':
             free_bytes = ctypes.c_ulonglong(0)
             ctypes.windll.kernel32.GetDiskFreeSpaceExW(ctypes.c_wchar_p(self.mediaSettings.download_path), None, None, ctypes.pointer(free_bytes))
