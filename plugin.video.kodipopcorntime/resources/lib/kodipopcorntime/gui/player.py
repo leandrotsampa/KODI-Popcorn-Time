@@ -14,7 +14,7 @@ class Player(_Base):
     def calculate_free_space(self):
         if Platform.system == 'android' and not hasattr(os, 'statvfs'): 
             potencies = {'k':1,'M':2,'G':3,'T':4,'P':5,'E':6,'T':7,'Y':8}
-            free = subprocess.Popen(["/system/bin/df", self.mediaSettings.download_path], stdout=subprocess.PIPE).communicate()[0].split("\n")[1].split()[3]
+            free = subprocess.Popen(["df", self.mediaSettings.download_path], stdout=subprocess.PIPE).communicate()[0].split("\n")[1].split()[3]
             return int(float(free[:-1])*(1024^potencies[free[-1:]]))
         if Platform.system == 'windows':
             free_bytes = ctypes.c_ulonglong(0)
